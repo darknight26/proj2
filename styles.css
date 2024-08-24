@@ -1,0 +1,109 @@
+
+  /* Reset some basic elements */
+body, h1, h2, p, ul, li {
+  margin: 10;
+  padding: 10;
+  
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  /* outline: 4px solid red; */
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  border: 10px solid darkgray;
+  padding: 20px 0;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  text-align: center; 
+  background-color: #444;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  margin-bottom: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.spa{
+  border-top: 5px transparent red;
+  /* border-bottom: purple ; */
+  /* border-radius: 2px; */
+  /* outline: 5px solid black; */
+  display:inline;
+}
+.maincont{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: aqua;
+  border: 2px solid blue;
+}
+
+.maincont div{
+  background-color: peachpuff;
+  border: 4px solid salmon;
+  height: 300px;
+  margin: 5px;
+  flex :1 1 auto;
+  
+}
+.one{
+  display: flex;
+  /* flex-direction: column; */
+}
+.one div{
+  background-color: peachpuff;
+  border: 4px solid salmon;
+  height: 300px;
+  margin: 5px;
+  flex :1 1 auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  padding: 2p ;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
