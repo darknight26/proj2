@@ -1,0 +1,52 @@
+/* .scratchPad {
+  display: flex;
+  justify-content: center;
+  
+  margin-left: 20%;
+  flex-wrap: wrap; Allow the items to wrap to the next line
+  gap: 5px; Adjust the gap between the squares
+  box-sizing: border-box; Include padding and border in the element's total width and height
+} */
+
+/* .scratchPad div {
+  background-color: blue;
+  
+} */
+
+/* .details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+} */
+* {
+  box-sizing: border-box;
+  /* margin: 0;
+  padding: 0; */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Stack the input and the grid vertically */
+  align-items: center;    /* Center the content horizontally */
+  min-height: 100vh;      /* Full height of the viewport */
+}
+
+.details {
+  margin-top: 50px;
+  margin-bottom: 20px;    /* Add space between input and grid */
+}
+
+.scratchPad {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;         /* Center horizontally */
+  background-color: lightgray;
+}
+
+.scratchPad div {
+  background-color: lightgray;
+  border: 1px solid black; /* Thin black border between boxes */
+}
+
